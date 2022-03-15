@@ -6,11 +6,12 @@ int main() {
 
    cin >> userNum;
 
-   while (userNum >= 0) {
-      cout << "Body" << endl;
-      cin >> userNum;
+   while (userNum != 2 && userNum > 2) {  
+   userNum = userNum / 4;
+   cout << userNum << " ";  
    }
-   cout << "Done." << endl;
+
+   cout << endl;
 
    return 0;
 }
