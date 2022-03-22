@@ -8,7 +8,6 @@ int main() {
 	string name;
 	int price, quantity;
 	
-	//Prompt & read item name, price & quantity for item 1 from user
 	cout << "Item 1" << endl;
 	cout << "Enter the item name:" << endl;
 	getline (cin, name);
@@ -17,7 +16,6 @@ int main() {
 	cout << "Enter the item quantity:" << endl;
 	cin >> quantity;
 	
-	//Create objecy for item 1
 	ItemToPurchase item1;
 	//Set values of data memebers of class for item 1
 	item1.SetName(name);
